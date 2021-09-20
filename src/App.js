@@ -1,16 +1,20 @@
-import logo from './logo.svg';
+
 import './App.css';
-import { useEffect, useState } from 'react';
+import Country from './component/Country/Country';
+import Person from './component/Person/Person';
+
+
+
 
 function App() {
   return (
     <div className="App">
-      <ContryFetch></ContryFetch>
-      
+      <Person></Person>
+      <Country></Country>
     </div>
   );
 }
-function ContryFetch(){
+/* function ContryFetch(){
 
   const [countries,setCountry] = useState([]);
   useEffect(() =>{
@@ -26,7 +30,7 @@ function ContryFetch(){
     </div>
   )
 
-}
+} */
     
 
 export default App;
