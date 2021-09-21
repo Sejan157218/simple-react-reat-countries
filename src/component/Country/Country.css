@@ -1,0 +1,12 @@
+.country-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.country{
+    background-color: rgba(6, 25, 26, 0.808);
+    color: #ffff;
+    border-radius: 10px;
+}
+.country img{
+    width: 200px;
+}

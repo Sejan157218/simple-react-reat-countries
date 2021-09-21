@@ -1,16 +1,12 @@
 
 import './App.css';
-import Country from './component/Country/Country';
-import Person from './component/Person/Person';
-
-
+import Countries from './component/Countries/Countries';
 
 
 function App() {
   return (
     <div className="App">
-      <Person></Person>
-      <Country></Country>
+      <Countries></Countries>
     </div>
   );
 }
